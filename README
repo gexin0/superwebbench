@@ -15,3 +15,18 @@ UNIX sockets code (socket.c) taken from popclient 1.5 4/1/94
 public domain code, created by Virginia Tech Computing Center.
 
 Copyright: GPL (see /usr/share/common-licenses/GPL)
+
+*************************************************************
+Installation :
+wget https://github.com/downloads/xutongle/SuperWebBench/superwebbench.tar.gz
+tar zxvf superwebbench.tar.gz
+cd superwebbench
+make && make install
+
+*************************************************************
+Question:
+ctags *.c
+/bin/sh: ctags: command not found
+make: [tags] ´íÎó 127 (ºöÂÔ)
+
+yum install ctags
